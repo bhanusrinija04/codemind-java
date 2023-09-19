@@ -7,7 +7,7 @@ public class palindrome{
         String x = String.valueOf(n);
 
         // Step 4: Reverse the string
-        String reversed = new StringBuilder().reverse().toString();
+        String reversed = new StringBuilder(x).reverse().toString();
         if(x.equals(reversed))
         {
             System.out.println("True");
